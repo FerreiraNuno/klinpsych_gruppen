@@ -1,0 +1,6 @@
+klinik_id,klinik_name,stadt,ist_giessen,cap_A,cap_B,cap_C,cap_D
+1,Klinik Gießen 1,Gießen,true,2,2,1,1
+2,Klinik Gießen 2,Gießen,true,1,1,1,1
+3,Klinik Frankfurt 1,Frankfurt,false,1,1,1,1
+4,Klinik München 1,München,false,1,1,1,1
+5,Klinik Berlin 1,Berlin,false,1,1,1,1
