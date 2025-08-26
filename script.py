@@ -292,15 +292,16 @@ def fail_list(prefix, items):
 
 def prompt_require_outside():
     print("--------------------------------")
-    print("Soll erzwungen werden, dass jede Person mindestens eine Klinik-Präferenz außerhalb Gießens angibt? [j/n] (Standard: n)")
-    print("Bitte Buchstaben 'j' oder 'n' eingeben und Enter drücken")
-    try:
-        ans = input().strip().lower()
-    except EOFError:
-        ans = ""
-    if ans in {"j", "ja", "y", "yes"}:
-        return True
-    return False
+    # print("Soll erzwungen werden, dass jede Person mindestens eine Klinik-Präferenz außerhalb Gießens angibt? [j/n] (Standard: n)")
+    # print("Bitte Buchstaben 'j' oder 'n' eingeben und Enter drücken")
+    return True
+    # try:
+    #     ans = input().strip().lower()
+    # except EOFError:
+    #     ans = ""
+    # if ans in {"j", "ja", "y", "yes"}:
+    #     return True
+    # return False
 
 def main():
     clinics_path = "kliniken.csv"
